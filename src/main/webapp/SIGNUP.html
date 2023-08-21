@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	#main{
+			background-image: url(https://media.istockphoto.com/id/1324632222/photo/asian-food.jpg?s=1024x1024&w=is&k=20&c=MjgZjQZVtjrYEGLvbMiCEPi5jQSrpeg8D2yaUzhfeyI=);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#form{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		
+	}
+</style>
+</head>
+<body>
+<div id="main">
+	
+		<fieldset id="form" style="width:300px; height: 500px;  background-color:cornsilk;opacity: 0.8;">
+				<legend>ENTER DETAILS</legend>
+		<form action="signup" id="form" method="post" enctype="multipart/form-data">
+			<table id="table">
+				
+	
+			
+			<tr>
+				<td>
+					NAME<input type="text" name="name" id="name" placeholder="ENTER NAME" required style="width: 250px;height: 30px; border-radius: 5px;border-color: whitesmoke;">
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					EMAIL<input type="email" name="mail" id="mail" placeholder="EMAIL" required style="width: 250px;height: 30px; border-radius: 5px;border-color: whitesmoke;">
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					PHONENO.<input type="number" name="number" id="number" placeholder="PHONE NUMBER" required   pattern="[0-9]{10}" style="width: 250px;height: 30px; border-radius: 5px;border-color: whitesmoke;">
+				</td>
+				
+			</tr>
+				
+				
+			</tr>
+				<tr>
+				<td>
+					PASSWORD<input type="password" name="password" id="password" placeholder="PASSWORD" required style="width: 250px;height: 30px; border-radius: 5px;border-color: whitesmoke;">
+				</td>
+				
+			</tr>
+			<tr>
+				<td style="width: 250px;height: 30px; ">
+					GENDER<input type="radio" name="gender" value="male">MALE
+			<input type="radio" name="gender" value="female">FEMALE
+				<input type="radio" name="gender" value="others">OTHERS	
+				</td>
+			</tr>
+			<tr style="width: 250px;height: 30px; ">
+				<td >
+				COUNTRY<select>
+					<option>INDIA</option>
+					
+					<option>USA</option>
+					<option>UK</option>
+					
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					DOB<input type="date" name="dob" ></td>
+			</tr>
+			
+				<tr>
+					<td>
+					PICTURE<input type="file" name="picture">
+					</td>
+				</tr>
+			<tr style="display: flex;align-items: center;justify-content: center;">
+				
+			<td>
+					<button style="width: 200px ; height: 30px;  background-color:orange; border-radius: 5px;border-color:orange;">SUBMIT</button>
+			</td>
+				
+			
+		</tr>
+		<tr style="display: flex;align-items: center;justify-content: center;">
+				
+			<td>
+				
+				<a href="./Homepage.html"> <button style="width: 200px ; height: 30px;  background-color:orange; border-radius: 5px;border-color:orange;">CANCEL</button></a>
+				
+			</td>
+				
+			
+		</tr>
+		<tr>
+			<td><a href="./SIGNUP.html">Already have Account?Click here to login</a></td>
+		</tr>
+			
+			</table>
+		</form>
+		</fieldset> 
+		
+		 </div>
+	
+</body>
+</html>
